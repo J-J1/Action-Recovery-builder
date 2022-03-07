@@ -14,23 +14,23 @@ on:
       LIBRARY_BRANCH:
         description: 'LIBRARY_BRANCH'
         required: true
-        default: 'twrp-9.0'
+        default: 'twrp-5.1'
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/azwhikaru/twrp_device_xiaomi_archytas'
+        default: 'https://github.com/J-J1/android_device_oppo_A37m'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
-        default: 'twrp-9.0'
+        default: 'twrp-5.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/Archytas'
+        default: 'device/xiaomi/A37'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'Archytas'
+        default: 'A37'
 
 jobs:
   build:
